@@ -687,7 +687,7 @@ class Regridder(BaseRegridder):
         # record basic switches
         if method in ['conservative', 'conservative_normed']:
             need_bounds = True
-            periodic = False  # bound shape will not be N+1 for periodic grid
+            #periodic = False  # bound shape will not be N+1 for periodic grid
         else:
             need_bounds = False
 
